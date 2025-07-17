@@ -239,7 +239,7 @@ const Products = () => {
                 <hr className="border border-yellow-500"/>
             </div>
             {/* Display Product */}
-            <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4'>
+            <div className='container grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4'>
                 {/* card */}
                  {allpro.map((item)=>(
                     <div key={item.id} className="card w-[170px] sm:w-[250px] py-2 mt-5 rounded-md border-2 border-yellow-500 bg-gray-200">
